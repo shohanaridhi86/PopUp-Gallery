@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery</title>	
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="style.css">
+
+
+	
+</head>
+<body>
+	
+	<div class="gallery">
+		<div class="mid">
+			<div class="gall-box"><a href="images/s1.jpg"><img src="images/s1.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s2.jpg"><img src="images/s2.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s3.jpg"><img src="images/s3.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s4.jpg"><img src="images/s4.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s5.png"><img src="images/s5.png" alt=""></a></div>
+			<div class="gall-box"><a href="images/s1.jpg"><img src="images/s6.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s2.jpg"><img src="images/s7.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s3.jpg"><img src="images/s8.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s4.jpg"><img src="images/s9.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s5.png"><img src="images/s10.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s1.jpg"><img src="images/s1.jpg" alt=""></a></div>
+			<div class="gall-box"><a href="images/s2.jpg"><img src="images/s2.jpg" alt=""></a></div>
+		</div>
+	</div>
+		
+	
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script>
+		
+		$(document).ready(function(){
+
+			$(".gall-box a").prettyPhoto({
+				animation_speed 	: 'slow',
+				social_tools 		: false,
+				opacity 			: .5,
+				autoplay_slideshow 	: true
+			});	
+
+
+		});
+
+			
+
+	</script>
+</body>
+</html>
+
+
